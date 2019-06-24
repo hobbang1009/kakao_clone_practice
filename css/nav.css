@@ -1,0 +1,50 @@
+@keyframes navIn {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  background-color: #fcfcfc;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  bottom: 0px;
+  transform: translateY(100px);
+  animation: navIn 0.5s forwards;
+  animation-delay: 0.2s;
+}
+
+.nav .nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+}
+
+.nav__list-comment {
+  position: relative;
+}
+
+.nav__number-button {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 20px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: red;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}

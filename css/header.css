@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header__column .header__title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header__column .header__icon {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.header__setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header__setting .setting__column .setting__backbutton {
+  font-size: 25px;
+}
+
+.header__setting .setting__column .setting__title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header__setting .setting__column .setting__blank {
+  margin-left: 60px;
+}
+
+.header__messages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header__messages .messages__column .messages__icons1 {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.header__messages .messages__column .messages__username {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header__messages .messages__column .messages__icons2 {
+  font-size: 20px;
+}
+.header__messages .messages__column .messages__icons3 {
+  font-size: 20px;
+}
